@@ -5,5 +5,4 @@ function manipulate(form){
     document.getElementById("theSeason").innerHTML = form.season.value;
     var name = form.color.value;
     document.body.style.background = name;
-    
 }
