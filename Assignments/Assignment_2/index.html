@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    
+    <div id="theDiv">
+        <h1 id="words">Select Options Then Press Button</h1>
+        <h2 id="theName">My Name is: </h2>
+        <h3 id="theDescription"></h3>
+        <h4 id="theSeason"></h4>
+
+        <form onsubmit="return false">
+            <label for="name">Full name:</label><br>
+            <input type="text" id="name" name="name" value="name here"><br>
+            <label for="message">4 Adjectives to describe yourself:</label><br>
+            <textarea name="message" rows="10" cols="30">Funny, lazy, etc.</textarea><br>
+            <label for="season">favorite season:</label><br>
+            <select id="season" name="season">
+                <option value="fall">Fall</option>
+                <option value="Winter">Winter</option>
+                <option value="Spring" selected>Spring</option>
+                <option value="audi">Summer</option>
+              </select><br>
+            <label for="color">Favorite Color (Select): </label><br>
+            <input type="color" name="color" id="color" value="#ffd48a"/>
+            <br>
+            <button class="button-35" role="button" id="theButton" onClick="manipulate(this.form)">Touch me</button>
+        </form>
+        <br><br>
+        
+    </div>
+
+
+
+</body>
+</html>
