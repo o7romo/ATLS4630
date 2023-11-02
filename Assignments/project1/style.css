@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap');
+
+
+body{
+    font-family: 'Jost', sans-serif;
+}
+
+input[type=search] {
+    width:50%;
+    resize: vertical;
+    padding:15px;
+    border-radius:15px;
+    border:0;
+    box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+   
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  }
+
+.container{
+    display: flex;
+    justify-content: center;    
+}
+
+#searchbar{
+    display: flex;
+    justify-content: center;
+}
+
+#recipe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-container2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-container3 {
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Hide overflowing content within the rounded card */
+    width: 350px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/* asiosofinonfaso */
+
+/* Centering and layout styles */
+.center {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.left {
+    float: left;
+    width: 50%;
+    text-align: left;
+    padding: 10px;
+}
+
+
+/* Image styles */
+#image-container {
+    text-align: center;
+}
+
+#recipe-image {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+/* Title and other text styles */
+#recipe-title {
+    font-size: 24px;
+    text-align: left;
+}
+
+h2, h3, h4 {
+    font-weight: bold;
+}
+
+/* List styles */
+#Ingredient-list, #dynamic-list {
+    padding: 0;
+    list-style-type: none;
+}
+
+#Ingredient-list li, #dynamic-list li {
+    margin: 5px;
+}
+
+
+
+
+
+/* button styling */
+
+.imgButton{
+    text-align:center;
+  }
+  
+.button-35 {
+    align-items: center;
+    background-color: black;
+    border-radius: 12px;
+    box-shadow: transparent 0 0 0 3px,rgba(18, 18, 18, .1) 0 6px 20px;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: inline-flex;
+    flex: 1 1 auto;
+    font-family: Inter,sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 1;
+    margin: 0;
+    outline: none;
+    padding: 1rem 1.2rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s,-webkit-box-shadow .2s;
+    white-space: nowrap;
+    border: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-35:hover {
+    box-shadow: #121212 0 0 0 3px, transparent 0 0 0 0;
+  }
+
+
+
+
